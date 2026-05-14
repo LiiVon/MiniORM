@@ -1,0 +1,42 @@
+# Build directories
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+/Makefile
+
+# Compiled object files
+*.o
+*.obj
+
+# Libraries and executables
+*.so
+*.a
+*.dll
+*.exe
+
+# IDE / editor
+.vscode/
+*.code-workspace
+
+# Python virtualenvs
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated example and test binaries
+miniorm_example
+miniorm_example.*
+
+# CTest / CMake generated folders
+/Testing/
